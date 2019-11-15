@@ -1,15 +1,28 @@
 body {
-  padding-top: 5rem;
+  background: url('../images/background2.png') center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica'
 }
-.starter-template {
+
+a.nav-link {
+color: orange!important;
+}
+
+.heading {
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
 h1 {
    display: flex;
-   justify-content: flex-end;
-   color: white
+   justify-content: center;
+   color: black;
+   font-size: 24px;
  }
 
 h5.modal-title {
@@ -17,21 +30,26 @@ color:red
 
 }
 
-li.nav-item {
-background-color:green !important;
+
+div.top {
+  background-color: white;
+  opacity: 0.75;
 
 }
 
-div.container {
+div.carousel {
+  background-color: white;
+  opacity:1;
+}
+
+div.bottom {
+  color: white;
   background-color: black;
-
+  opacity: 0.75;
 }
 
-div.all {
-  background-color: rgb(255, 0, 0);
 
-}
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #8064A2 !important;
+    background-color: orange !important;
 
 }
