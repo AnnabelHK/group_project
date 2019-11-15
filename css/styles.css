@@ -1,5 +1,5 @@
 body {
-  background: url('../images/background2.png') center;
+  background: url('../images/background4.png') center;
   background-repeat: repeat-y;
   background-size: cover;
   width: 100vw;
@@ -32,10 +32,21 @@ color:red
 
 
 div.top {
+  background-color: rgb(3,2,40);
+  opacity: 1;
+
+}
+
+div.middle {
+  position:relative;
+  display:flex;
+  justify-content: center;
   background-color: white;
   opacity: 0.75;
 
 }
+
+
 
 div.carousel {
   background-color: white;
@@ -44,12 +55,16 @@ div.carousel {
 
 div.bottom {
   color: white;
-  background-color: black;
-  opacity: 0.75;
+  background-color: rgb(3,2,40);
+  opacity: 1;
 }
 
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: orange !important;
 
+}
+
+p {
+  margin-bottom: 0;
 }
