@@ -19,14 +19,17 @@ color: orange!important;
 }
 
 h1 {
-   display: flex;
-   justify-content: center;
-   color: black;
+   color: white;
    font-size: 24px;
  }
 
+ h2 {
+   padding: 10px;
+   color: rgb(191,41,0);
+ }
+
 h5.modal-title {
-color:red
+color:orange;
 
 }
 
@@ -42,7 +45,7 @@ div.middle {
   display:flex;
   justify-content: center;
   background-color: white;
-  opacity: 0.75;
+  opacity: 1;
 
 }
 
@@ -55,8 +58,9 @@ div.carousel {
 
 div.bottom {
   color: white;
-  background-color: rgb(3,2,40);
+  background-color: rgb(191,41,0);
   opacity: 1;
+  padding: 10px;
 }
 
 
@@ -67,4 +71,12 @@ div.bottom {
 
 p {
   margin-bottom: 0;
+  padding: 10px;
+  color:white;
+}
+
+div.col-sm {
+ display: flex;
+ justify-content: center;
+
 }
