@@ -28,6 +28,11 @@ h1 {
    color: rgb(191,41,0);
  }
 
+ h3 {
+   padding: 10px;
+   font-size: 22px;
+ }
+
 h5.modal-title {
 color:orange;
 
@@ -79,4 +84,27 @@ div.col-sm {
  display: flex;
  justify-content: center;
 
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+div.buttons {
+  display: flex;
+  justify-content: center;
 }
