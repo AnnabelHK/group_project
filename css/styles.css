@@ -1,17 +1,19 @@
 body {
-  background: url('../images/background4.png') center;
-  background-repeat: repeat-y;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+
+
   padding: 0;
   margin: 0;
-  font-family: 'Helvetica'
+  font-family: 'Helvetica';
 }
 
 a.nav-link {
-color: orange!important;
+color: white!important;
 }
+a.nav-link:hover, a.ex1:active {
+  color: rgb(255, 136, 207)!important;
+}
+
+
 
 .heading {
   padding: 3rem 1.5rem;
@@ -19,18 +21,25 @@ color: orange!important;
 }
 
 h1 {
-   color: white;
-   font-size: 24px;
+   color: rgb(255,255,255, 0.6);
+   font-size: 22px;
+   padding: 10px;
+   font-weight: bold;
  }
 
  h2 {
-   padding: 10px;
-   color: rgb(191,41,0);
+   font-size: 22px;
+   padding-left: 20px;
+   color: rgb(0,0,0,0.6);
+   font-weight: bold;
+
  }
 
  h3 {
-   padding: 10px;
+   padding-left: 20px;
    font-size: 22px;
+   color: rgb(247,155,33,0.75);
+   font-weight: bold;
  }
 
 h5.modal-title {
@@ -40,9 +49,11 @@ color:orange;
 
 
 div.top {
-  background-color: rgb(3,2,40);
-  opacity: 1;
-
+  background: url('../images/sunset.jpg') center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  color: white;
+  padding: 10px;
 }
 
 div.middle {
@@ -50,11 +61,12 @@ div.middle {
   display:flex;
   justify-content: center;
   background-color: white;
-  opacity: 1;
-
+opacity: 0.75;
 }
 
-
+div.green {
+background-color: rgb(17, 92, 92);
+}
 
 div.carousel {
   background-color: white;
@@ -62,23 +74,41 @@ div.carousel {
 }
 
 div.bottom {
-  color: white;
-  background-color: rgb(191,41,0);
-  opacity: 1;
+  background-color: rgb(0,0,0,0.75);
+  color: rgb(255,255,255,0.75);
   padding: 10px;
 }
 
+div.second {
+  color: white;
+  background-color: rgb(44, 51, 51);
+  opacity: 1;
+  padding: 10px;
 
+}
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: orange !important;
+    color: white !important;
 
+}
+
+a.go {
+  color: white !important;
 }
 
 p {
   margin-bottom: 0;
-  padding: 10px;
-  color:white;
+  padding:20px;
 }
+a.ex1 {
+  color: rgb(255,255,255,0.75);
+}
+
+a.ex1:hover, a.ex1:active {
+  color: rgb(17, 92, 92);
+}
+
+
 
 div.col-sm {
  display: flex;
