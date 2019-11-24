@@ -13,7 +13,13 @@ a.nav-link:hover, a.ex1:active {
   color: rgb(255, 136, 207)!important;
 }
 
-
+a.nav-icon {
+  height:100%;
+  padding-left:20px;
+  padding-top:5px;
+  display:flex;
+  justify-content: flex-end!important;
+}
 
 .heading {
   padding: 3rem 1.5rem;
@@ -37,8 +43,8 @@ h1 {
 
  h3 {
    padding-left: 20px;
-   font-size: 22px;
-   color: rgb(247,155,33,0.75);
+   font-size: 20px;
+   color: rgb(247,170,201,0.8);
    font-weight: bold;
  }
 
@@ -53,7 +59,6 @@ div.top {
   background-repeat: repeat-y;
   background-size: cover;
   color: white;
-  padding: 10px;
 }
 
 div.middle {
@@ -90,6 +95,12 @@ div.second {
     background-color: orange !important;
     color: white !important;
 
+}
+
+
+
+button.ba {
+  background-color: black;
 }
 
 a.go {
