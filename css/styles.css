@@ -27,7 +27,7 @@ a.nav-icon {
 }
 
 h1 {
-   color: rgb(255,255,255, 0.6);
+   color: rgb(255,255,255, 0.75);
    font-size: 22px;
    padding: 10px;
    font-weight: bold;
@@ -55,7 +55,7 @@ color:orange;
 
 
 div.top {
-  background: url('../images/sunset.jpg') center;
+  background: url('../images/sunset2.jpg') center;
   background-repeat: repeat-y;
   background-size: cover;
   color: white;
@@ -95,6 +95,34 @@ div.second {
     background-color: orange !important;
     color: white !important;
 
+}
+
+#list {
+  display:flex;
+  justify-content: flex-start;
+  background-color: rgb(0,0,0,0.5)
+}
+
+#list2 {
+  display:flex;
+  justify-content: flex-start;
+}
+
+#list3 {
+    display:flex;
+    justify-content: flex-start;
+  }
+
+#about {
+  padding-left:30px;
+}
+
+#contact {
+  padding-left:30px;
+}
+
+#personalised {
+padding-left: 30px;
 }
 
 
